@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ProsuctListComponent } from './prosuct-list.component';
+import { ProductAlertComponent } from './product-alert.component';
 
-describe('ProsuctListComponent', () => {
-  let component: ProsuctListComponent;
-  let fixture: ComponentFixture<ProsuctListComponent>;
+describe('ProductAlertComponent', () => {
+  let component: ProductAlertComponent;
+  let fixture: ComponentFixture<ProductAlertComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ProsuctListComponent ]
+      declarations: [ ProductAlertComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ProsuctListComponent);
+    fixture = TestBed.createComponent(ProductAlertComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
